@@ -24,7 +24,7 @@ to the raspberry pi that will store these values.
 
 
 #### Schematic 
-![CIP_schematic_v0 with KiCad](https://github.com/NAU-IoT/CIP_prod/blob/main/img/KICAD_CIP_SCHEMATIC_V0.png)
+![D1Mini IoT Lab_schematic_v0 with KiCad](https://github.com/NAU-IoT/D1Mini_prototype/blob/main/img/D1MINI_LAB.png)
 
 # Dependencies
 #### *Todo*
