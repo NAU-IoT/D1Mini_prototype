@@ -3,7 +3,7 @@
  */
 // define WiFi credentials
 #define ssid "slurricane"
-#define WPA2 "MiltonAr1es17!"
+#define WPA2 "PASSWORD"
 
 // MQTT credentials
 #define mqtt_server "192.169.1.10"      // MQTT broker IP (RPI 4 in this instance)
