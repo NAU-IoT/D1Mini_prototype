@@ -9,30 +9,7 @@
 #include "PubSubClient.h"
 #include <ESP8266WiFi.h>
 #include <Adafruit_BME280.h>
-//#include "constants.h"
-
-
-// define sealevel pressure for BME280 sensor in hectopascals
-#define SEALEVELPRESSURE_HPA (1013.25)
-
-// WiFi prefs
-#define ssid "slurricane"
-#define WPA2 "MiltonAr1es17!"
-
-// MQTT prefs
-#define mqtt_server "192.168.1.10"       // MQTT broker IP (RPI 4 in this case)
-
-// define MQTT topics
-#define temp_topic "home/area/BME_temp"
-#define hum_topic "home/area/BME_hum"
-#define press_topic "home/area/BME_press"
-#define alt_topic "home/area/BME_alt"
-
-// MQTT credentials
-#define mqtt_user "akiel"
-#define mqtt_pass "password"
-#define clientID "client_area"
-
+#include "constants.h"
 
 // use I2C protocol
 Adafruit_BME280 bme;
