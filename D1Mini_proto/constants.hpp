@@ -2,11 +2,12 @@
  * constants that will be used through this program
  */
 // define WiFi credentials
-#define ssid "slurricane"
+#define ssid "NETWORK"
 #define WPA2 "PASSWORD"
 
-// MQTT credentials
-#define mqtt_server "192.169.1.10"      // MQTT broker IP (RPI 4 in this instance)
+/* MQTT credentials */
+// MQTT BROKER IP 
+#define mqtt_server "111.111.11.1"      
 #define mqtt_user "akiel"
 #define mqtt_pass "password"
 #define clientID "client_area"

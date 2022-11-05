@@ -9,7 +9,7 @@
 #include "PubSubClient.h"
 #include <ESP8266WiFi.h>
 #include <Adafruit_BME280.h>
-#include "constants.h"
+#include "constants.hpp"
 
 // use I2C protocol
 Adafruit_BME280 bme;
